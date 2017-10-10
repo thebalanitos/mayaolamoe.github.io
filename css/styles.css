@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.ttf");
+	font-weight: 700;
+}
+body {
+	font-family: Calibri, sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.background-wrap{
+	position: absolute;
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+#video-bg-elem{
+	position: absolute;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+.bg-img{
+	position: absolute;
+	z-index: -1001;
+}
+.content{
+	position: relative;
+	width: 100%;
+	left: 0;
+	min-height: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.8);
+}
+@-webkit-keyframes example {
+    from {top: 125px;}
+	to {top: 0px;}
+}
+.animation{
+	position: relative;
+	-webkit-animation-name: example;
+    -webkit-animation-duration: 2s;
+    animation-name: example;
+    animation-duration: 2s;
+	-webkit-animation-timing-function: ease;
+}
+.animation h1{
+	text-align: center;
+	font-size: 120px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #fff;
+	padding-top: 15%;
+	margin-bottom: 10px;
+}
+.animation p{
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 3px;
+	color: #aaa;
+}
+.content span{
+	position: absolute;
+	bottom: 5vh;
+	left: 46vw;	
+}
+.fa-arrow-circle-down{
+	color:white;
+}
+.paragraf{
+	padding-right: 20%;
+	padding-left: 20%;
+}
+.left{
+	position: relative;
+	left: 10%;
+	width: 100%;
+}
+.nav-img{
+	position: relative;
+	width: 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: black;
+}
+.nav-item {
+	font-size:18px;
+}
+.navbar{
+	background-color: cream;
+	border-bottom: 3px solid #627f84;
+}
+.navbar-toggler-icon {
+	background-color: black;
+}
+.nav-item{
+	font-size: 25px;!important
+}
+.info{
+	margin-top: 1000px;
+}
+@media screen and (max-width: 480px){
+	
+	.content{
+		padding-top: 22vh;
+	}
+	.animation h1{
+		padding-top: 700px;
+		text-align: center;
+		font-size: 60px;
+		text-transform: uppercase;
+		font-weight: 300;
+		color: #fff;
+		padding-top: 15%;
+		margin-bottom: 10px;
+	}
+	.animation p{
+		text-align: center;
+		font-size: 15px;
+		letter-spacing: 3px;
+		color: #aaa;
+	}
+	.btn{
+		color: #fff;
+		background-color: #aaa;
+	}
+	.btn:hover{
+		color: black;
+		background-color: white;
+	}
+	.nav-img{
+		width: 40px;
+		left: 4%;
+	}
+	.nav-item{
+		font-size: 20px;!important
+	}
+	.info{
+		margin-top: 700px;
+	}
+}
