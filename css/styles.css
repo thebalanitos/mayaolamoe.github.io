@@ -16,7 +16,6 @@ body {
 }
 .background-wrap{
 	position: absolute;
-	
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
@@ -58,7 +57,6 @@ body {
 	-webkit-animation-timing-function: ease;
 }
 .animation h1{
-	text-align: center;
 	font-size: 120px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -67,18 +65,24 @@ body {
 	margin-bottom: 10px;
 }
 .animation p{
-	text-align: center;
 	font-size: 30px;
 	letter-spacing: 3px;
 	color: #aaa;
 }
 .content span{
 	position: absolute;
-	bottom: 5vh;
-	left: 46vw;	
+	color: white;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
 }
-.fa-arrow-circle-down{
+.fa-chevron-down{
 	color:white;
+	opacity: 1;
+}
+.fa-chevron-down:hover {
+    opacity: 0.75;
+}
 }
 .paragraf{
 	padding-right: 20%;
@@ -95,6 +99,7 @@ body {
 }
 .navbar-light .navbar-nav .nav-link {
 	color: black;
+	position: relative;
 }
 .navbar-light .navbar-nav .nav-link:hover {
 	color: black;
@@ -115,6 +120,16 @@ body {
 .info{
 	margin-top: 1000px;
 }
+.text{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.text.black{
+	background: #252525;
+}
+.black{
+	color: white;
+}
 @media screen and (max-width: 480px){
 	
 	.content{
@@ -132,7 +147,7 @@ body {
 	}
 	.animation p{
 		text-align: center;
-		font-size: 15px;
+		font-size: 20px;
 		letter-spacing: 3px;
 		color: #aaa;
 	}
