@@ -123,6 +123,7 @@ body {
 .text{
 	padding-top: 100px;
 	padding-bottom: 100px;
+	text-align: center;
 }
 .text.black{
 	background: #252525;
@@ -151,14 +152,6 @@ body {
 		letter-spacing: 3px;
 		color: #aaa;
 	}
-	.btn{
-		color: #fff;
-		background-color: #aaa;
-	}
-	.btn:hover{
-		color: black;
-		background-color: white;
-	}
 	.nav-img{
 		width: 40px;
 		left: 4%;
@@ -168,5 +161,19 @@ body {
 	}
 	.info{
 		margin-top: 700px;
+	}
+	.text h1{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.animation h1{
+		padding-top: 30%;
+		padding-right: 5%;
+		padding-left: 5%;
+		font-size: 65px;
+	}
+	.text h1{
+		font-size: 35px;
 	}
 }
