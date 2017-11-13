@@ -153,16 +153,13 @@ body {
 	.nav-item{
 		font-size: 20px;!important
 	}
-	.info{
-		margin-top: 700px;
-	}
 	.text h1{
 		font-size: 20px;
 	}
 }
 @media screen and (max-width: 768px){
 	.parallax{
-		padding: 3.5em 0;
+		padding: 3.3em 0;
 		transition: initial;
 	}
 }
