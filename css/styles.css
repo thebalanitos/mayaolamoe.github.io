@@ -7,12 +7,18 @@
 	src: url("../fonts/Lato-Bold.ttf");
 	font-weight: 700;
 }
+*{
+	transition: all ease-in-out 250ms;
+}
 body {
 	font-family: Calibri, sans-serif;
 }
-*{
-	margin: 0;
-	padding: 0;
+.bg-dark{
+	font-size: 20px;
+	border-bottom: 3px solid #627f84;
+}
+.bye{
+	display: none;
 }
 .background-wrap{
 	position: absolute;
@@ -44,15 +50,19 @@ body {
 	height: 100vh;
 	background-color: rgba(0,0,0,0.8);
 }
-@-webkit-keyframes example {
+@-webkit-keyframes title {
     from {top: 125px;}
 	to {top: 0px;}
 }
+@-webkit-keyframes button {
+    from {bottom: 1vh;}
+	to {bottom: 30px;}
+}
 .animation{
 	position: relative;
-	-webkit-animation-name: example;
+	-webkit-animation-name: title;
     -webkit-animation-duration: 2s;
-    animation-name: example;
+    animation-name: title;
     animation-duration: 2s;
 	-webkit-animation-timing-function: ease;
 }
@@ -73,8 +83,13 @@ body {
 	position: absolute;
 	color: white;
 	left: 50%;
-	bottom: 20px;
+	bottom: 30px;
 	transform: translateX(-50%);
+	-webkit-animation-name: button;
+    -webkit-animation-duration: 2s;
+    animation-name: button;
+    animation-duration: 2s;
+	-webkit-animation-timing-function: ease;
 }
 .fa-chevron-down{
 	color:white;
@@ -93,34 +108,7 @@ body {
 	left: 10%;
 	width: 100%;
 }
-.nav-img{
-	position: relative;
-	width: 40px;
-}
-.navbar-light .navbar-nav .nav-link {
-	color: black;
-	position: relative;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-	color: black;
-}
-.nav-item {
-	font-size:18px;
-}
-.navbar{
-	background-color: cream;
-	border-bottom: 3px solid #627f84;
-}
-.navbar-toggler-icon {
-	background-color: black;
-}
-.nav-item{
-	font-size: 25px;!important
-}
-.info{
-	margin-top: 1000px;
-}
-.text{
+.text div{
 	padding-top: 100px;
 	padding-bottom: 100px;
 	text-align: center;
@@ -130,6 +118,16 @@ body {
 }
 .black{
 	color: white;
+}
+.parallax{
+	top: 5vh;
+	color: white;
+	text-align: center;
+	padding: 10.5em 0;
+	background:url("../img/inter.png") ;
+	background-size: cover;
+	background-position: center;
+	transition: inital;
 }
 @media screen and (max-width: 480px){
 	
@@ -152,10 +150,6 @@ body {
 		letter-spacing: 3px;
 		color: #aaa;
 	}
-	.nav-img{
-		width: 40px;
-		left: 4%;
-	}
 	.nav-item{
 		font-size: 20px;!important
 	}
@@ -164,6 +158,12 @@ body {
 	}
 	.text h1{
 		font-size: 20px;
+	}
+}
+@media screen and (max-width: 768px){
+	.parallax{
+		padding: 3.5em 0;
+		transition: initial;
 	}
 }
 @media screen and (max-width: 1024px){
