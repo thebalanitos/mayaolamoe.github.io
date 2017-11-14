@@ -9,3 +9,10 @@ function parallax(){
 		$('.parallax').css('background-position','center '+(wScroll)*0.42+'px');
 	
 }
+function calcVH() {
+    $('.jumbotron').innerHeight( $(this).innerHeight() );
+}
+calcVH();
+$(window).on('resize orientationchange', function() {
+  calcVH();
+});

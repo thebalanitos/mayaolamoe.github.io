@@ -1,7 +1,6 @@
 var marginY = 0;
 var destination = 0;
 var speed = 10;
-var navbar = 100;
 var scroller = null;
 
 function initScroll(elemntId){
@@ -51,3 +50,12 @@ function toTop(){
 	window.scroll(0, marginY);
 
 }
+function calcVH() {
+    $('#chrome').innerHeight( $(this).innerHeight() );
+}
+(function($) { 
+  calcVH();
+  $(window).on('orientationchange', function() {
+    calcVH();
+  });
+})(jQuery);
