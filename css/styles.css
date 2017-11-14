@@ -18,37 +18,40 @@ body {
 	border-bottom: 3px solid #627f84;
 }
 .bye{
-	display: none;
+	opacity: 0;
 }
-.background-wrap{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	top: 0;
-	left: 0;
+.background-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
-#video-bg-elem{
-	position: absolute;
-	left: 0;
-	z-index: -1000;
-	min-height: 100%;
-	min-width: 100%;
+#video-bg-elem {
+    position: absolute;
+    left: 0;
+    z-index: -1000;
+    min-height: 100%;
+    min-width: 100%;
 }
-.bg-img{
-	position: absolute;
-	left: 0;
-	height: 100vw;
-	width: 100vh;
-	z-index: -1001;
+.bg-img {
+    position: absolute;
+    left: 0;
+    height: 100vw;
+    width: 100vh;
+    z-index: -1001;
 }
-.content{
-	position: relative;
-	width: 100%;
-	left: 0;
-	min-height: 100%;
-	height: 100vh;
-	background-color: rgba(0,0,0,0.8);
+.content {
+    position: relative;
+    width: 100%;
+    left: 0;
+    min-height: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+}
+.down{
+	bottom:0;
 }
 @-webkit-keyframes title {
     from {top: 125px;}
@@ -103,11 +106,6 @@ body {
 	padding-right: 20%;
 	padding-left: 20%;
 }
-.left{
-	position: relative;
-	left: 10%;
-	width: 100%;
-}
 .text div{
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -120,11 +118,10 @@ body {
 	color: white;
 }
 .parallax{
-	top: 5vh;
 	color: white;
 	text-align: center;
 	padding: 10.5em 0;
-	background:url("../img/inter.png") ;
+	background:url("../img/inter.png") repeat;
 	background-size: cover;
 	background-position: center;
 	transition: inital;
@@ -154,7 +151,7 @@ body {
 		font-size: 20px;!important
 	}
 	.text h1{
-		font-size: 20px;
+		font-size: 18px!important;
 	}
 }
 @media screen and (max-width: 768px){
@@ -171,6 +168,6 @@ body {
 		font-size: 65px;
 	}
 	.text h1{
-		font-size: 35px;
+		font-size: 20px;
 	}
 }
