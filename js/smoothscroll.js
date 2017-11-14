@@ -1,6 +1,7 @@
 var marginY = 0;
 var destination = 0;
 var speed = 10;
+var navbar = 100;
 var scroller = null;
 
 function initScroll(elemntId){
@@ -20,7 +21,7 @@ function initScroll(elemntId){
 			clearTimeout(scroller);
 		}
 
-		window.scroll(0, marginY);
+		window.scroll(0, marginY-70);
 	}
 	else
 	{
@@ -30,8 +31,9 @@ function initScroll(elemntId){
 			clearTimeout(scroller);
 		}
 
-		window.scroll(0, marginY);
+		window.scroll(0, marginY-60);
 	}
+
 }
 
 function toTop(){
