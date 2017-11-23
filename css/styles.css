@@ -126,6 +126,12 @@ body {
 	background-position: center;
 	transition: inital;
 }
+.second{
+	background:url("../img/second.jpg") repeat;
+	background-size: cover;
+	background-position: center;
+	transition: inital;
+}
 @media screen and (max-width: 480px){
 	
 	.content{

@@ -1,9 +1,10 @@
-var marginY = 0;
 var destination = 0;
 var speed = 10;
 var scroller = null;
+var marginY = 0;
 
 function initScroll(elemntId){
+
 	
 	destination = document.getElementById(elemntId).offsetTop;
 	
@@ -20,8 +21,8 @@ function initScroll(elemntId){
 			clearTimeout(scroller);
 		}
 
-		window.scroll(0, marginY-70);
-	}
+		window.scroll(0, marginY-60);
+	}	
 	else
 	{
 		marginY = marginY - speed;
@@ -30,9 +31,9 @@ function initScroll(elemntId){
 			clearTimeout(scroller);
 		}
 
-		window.scroll(0, marginY-60);
+		window.scroll(0, marginY-50);
 	}
-
+	
 }
 
 function toTop(){
@@ -50,6 +51,7 @@ function toTop(){
 	window.scroll(0, marginY);
 
 }
+
 function calcVH() {
     $('#chrome').innerHeight( $(this).innerHeight() );
 }
