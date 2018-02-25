@@ -137,6 +137,13 @@ body {
 	background-position: center;
 	transition: inital;
 }
+.logo{
+	position: absolute;
+	top: 100vh;
+	left: 100vw;
+	transform: translateY(-90%) translateX(-110%);
+	z-index: 5;
+}
 @media screen and (max-width: 480px){
 	
 	.content{

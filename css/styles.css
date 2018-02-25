@@ -16,6 +16,13 @@ img{
 	top:50vh;
 	transform: translateY(-50%);
 }
+.logo{
+	position: absolute;
+	top: 100vh;
+	left: 100vw;
+	transform: translateY(-100%) translateX(-100%);
+	z-index: 5;
+}
 @media screen and (max-width: 480px){
 	img{
 		top:28vh;
