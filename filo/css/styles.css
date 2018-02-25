@@ -53,7 +53,7 @@ body {
     width: 100%;
     left: 0;
     min-height: 100%;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
 }
 .down{
 	bottom:0;
@@ -132,7 +132,7 @@ body {
 	transition: inital;
 }
 .second{
-	background:url("../img/second.jpg") repeat;
+	background:url("../img/second.png") repeat;
 	background-size: cover;
 	background-position: center;
 	transition: inital;
@@ -145,7 +145,7 @@ body {
 	.animation h1{
 		padding-top: 600px;
 		text-align: center;
-		font-size: 60px;
+		font-size: 45px!important;
 		text-transform: uppercase;
 		font-weight: 300;
 		color: #fff;
@@ -154,12 +154,13 @@ body {
 	}
 	.animation p{
 		text-align: center;
-		font-size: 20px;
+		font-size: 17px;
+		font-weight: bold;
 		letter-spacing: 3px;
 		color: #aaa;
 	}
 	.nav-item{
-		font-size: 20px;!important
+		font-size: 20px!important;
 	}
 	.text h1{
 		font-size: 18px!important;
