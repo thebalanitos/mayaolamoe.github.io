@@ -7,173 +7,17 @@
 	src: url("../fonts/Lato-Bold.ttf");
 	font-weight: 700;
 }
-*{
-	transition: all ease-in-out 250ms;
-}
 body {
+	background: lightgrey;
 	font-family: Calibri, sans-serif;
 }
-.bg-dark{
-	font-size: 20px;
-	border-bottom: 3px solid #627f84;
-}
-.bye{
-	opacity: 0;
-}
-.background-wrap {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-}
-#video-bg-elem {
-    position: absolute;
-    left: 0;
-    z-index: -1000;
-    min-height: 100%;
-    min-width: 100%;
-}
-.bg-img {
-    position: absolute;
-    left: 0;
-    height: 100vw;
-    width: 100vh;
-    z-index: -1001;
-}
-.content {
-    position: relative;
-    width: 100%;
-    left: 0;
-    min-height: 100%;
-    
-    background-color: rgba(0,0,0,0.8);
-}
-.down{
-	bottom:0;
-}
-@-webkit-keyframes title {
-    from {top: 125px;}
-	to {top: 0px;}
-}
-@-webkit-keyframes button {
-    from {bottom: 1vh;}
-	to {bottom: 30px;}
-}
-.animation{
+center{
 	position: relative;
-	-webkit-animation-name: title;
-    -webkit-animation-duration: 2s;
-    animation-name: title;
-    animation-duration: 2s;
-	-webkit-animation-timing-function: ease;
-}
-.animation h1{
-	font-size: 120px;
-	text-transform: uppercase;
-	font-weight: 300;
-	color: #fff;
-	padding-top: 15%;
-	margin-bottom: 10px;
-}
-.animation p{
-	font-size: 30px;
-	letter-spacing: 3px;
-	color: #aaa;
-}
-.content span{
-	position: absolute;
-	color: white;
-	left: 50%;
-	bottom: 30px;
-	transform: translateX(-50%);
-	-webkit-animation-name: button;
-    -webkit-animation-duration: 2s;
-    animation-name: button;
-    animation-duration: 2s;
-	-webkit-animation-timing-function: ease;
-}
-.fa-chevron-down{
-	color:white;
-	opacity: 1;
-}
-.fa-chevron-down:hover {
-    opacity: 0.75;
-}
-}
-.paragraf{
-	padding-right: 20%;
-	padding-left: 20%;
-}
-.text div{
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
-}
-.text.black{
-	background: #252525;
-}
-.black{
-	color: white;
-}
-.parallax{
-	color: white;
-	text-align: center;
-	padding: 10.5em 0;
-	background:url("../img/inter.png") repeat;
-	background-size: cover;
-	background-position: center;
-	transition: inital;
-}
-.second{
-	background:url("../img/second.jpg") repeat;
-	background-size: cover;
-	background-position: center;
-	transition: inital;
+	top:50vh;
+	transform: translateY(-50%);
 }
 @media screen and (max-width: 480px){
-	
-	.content{
-		padding-top: 22%;
-	}
-	.animation h1{
-		padding-top: 600px;
-		text-align: center;
-		font-size: 60px;
-		text-transform: uppercase;
-		font-weight: 300;
-		color: #fff;
-		padding-top: 15%;
-		margin-bottom: 10px;
-	}
-	.animation p{
-		text-align: center;
-		font-size: 20px;
-		letter-spacing: 3px;
-		color: #aaa;
-	}
-	.nav-item{
-		font-size: 20px;!important
-	}
-	.text h1{
-		font-size: 18px!important;
-	}
-}
-@media screen and (max-width: 768px){
-	.parallax{
-		padding: 3.3em 0;
-		transition: initial;
-	}
-}
-@media screen and (max-width: 1024px){
-	.animation h1{
-		padding-top: 30%;
-		padding-right: 5%;
-		padding-left: 5%;
-		font-size: 65px;
-	}
-	.text h1{
-		font-size: 20px;
+	center{
+		top:28vh;
 	}
 }
