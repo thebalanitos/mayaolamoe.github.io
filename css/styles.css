@@ -11,13 +11,13 @@ body {
 	background: lightgrey;
 	font-family: Calibri, sans-serif;
 }
-center{
+img{
 	position: relative;
 	top:50vh;
 	transform: translateY(-50%);
 }
 @media screen and (max-width: 480px){
-	center{
+	img{
 		top:28vh;
 	}
 }
