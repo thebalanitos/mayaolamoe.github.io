@@ -143,7 +143,7 @@ body {
 	position: absolute;
 	top: 100vh;
 	left: 100vw;
-	transform: translateY(-80%) translateX(-110%);
+	transform: translateY(-100%) translateX(-110%);
 	z-index: 5;
 }
 @media screen and (max-width: 480px){
@@ -178,6 +178,12 @@ body {
 	}
 	.signature{
 		font-size: 25px;
+	}
+	.logo{
+	top: 13vh;
+	left: 100vw;
+	height: 80px;
+	width: 80px;
 	}
 }
 @media screen and (max-width: 768px){

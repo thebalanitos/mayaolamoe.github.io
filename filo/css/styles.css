@@ -141,7 +141,7 @@ body {
 	position: absolute;
 	top: 100vh;
 	left: 100vw;
-	transform: translateY(-90%) translateX(-110%);
+	transform: translateY(-100%) translateX(-110%);
 	z-index: 5;
 }
 @media screen and (max-width: 480px){
@@ -171,6 +171,12 @@ body {
 	}
 	.text h1{
 		font-size: 18px!important;
+	}
+	.logo{
+	top: 13vh;
+	left: 100vw;
+	height: 80px;
+	width: 80px;
 	}
 	
 }
