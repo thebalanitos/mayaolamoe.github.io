@@ -112,8 +112,10 @@ body {
 	padding-left: 20%;
 }
 .text div{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-right: 10px;
+	padding-left: 10px;
 	text-align: center;
 }
 .text.black{
@@ -126,13 +128,18 @@ body {
 	color: white;
 	text-align: center;
 	padding: 10.5em 0;
-	background:url("../img/inter.png") repeat;
-	background-size: cover;
+	background:url("../img/cod.jpg") repeat;
 	background-position: center;
 	transition: inital;
 }
 .second{
-	background:url("../img/second.png") repeat;
+	background:url("../img/omul.jpg") repeat;
+	background-size: cover;
+	background-position: center;
+	transition: inital;
+}
+.third{
+	background:url("../img/third.png") repeat;
 	background-size: cover;
 	background-position: center;
 	transition: inital;
@@ -169,7 +176,7 @@ body {
 	.nav-item{
 		font-size: 20px!important;
 	}
-	.text h1{
+	.text h3{
 		font-size: 18px!important;
 	}
 	.logo{

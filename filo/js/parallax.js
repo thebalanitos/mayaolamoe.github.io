@@ -7,8 +7,9 @@ function parallax(){
 
 	if($(window).width() > 1024)
 		{
-			$('.parallax').css('background-position','center '+(wScroll)*0.48+'px');
+			$('.parallax').css('background-position','center '+(wScroll)*0.37+'px');
 			$('.second').css('background-position','center '+(wScroll)*0.28+'px');
+			$('.third').css('background-position','center '+(wScroll)*0.2+'px');
 		}
 }
 function calcVH() {
