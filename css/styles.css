@@ -23,6 +23,13 @@ img{
 	transform: translateY(-100%) translateX(-110%);
 	z-index: 5;
 }
+.rom{
+	border-radius: 50%;
+	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-top: 30px;
+  	margin-left: 10px;
+}
 @media screen and (max-width: 480px){
 	img{
 		top:28vh;
@@ -35,4 +42,17 @@ img{
 	width: 80px;
 	z-index: -5;
 	}
+	.rest{
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.logo{
+		position: absolute;
+		top: 13vh;
+		left: 100vw;
+		height: 80px;
+		width: 80px;
+		z-index: -5;
 }
