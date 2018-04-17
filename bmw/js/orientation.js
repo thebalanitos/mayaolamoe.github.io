@@ -1,5 +1,5 @@
 function calcVH() {
-    $('.background').innerHeight( $(this).innerHeight() );
+    $('.content').innerHeight( $(this).innerHeight() );
 }
 calcVH();
 $(window).on('resize orientationchange', function() {

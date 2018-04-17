@@ -1,27 +1,8 @@
-@font-face {
-	font-family: "NexaLight";
-	src: url("../fonts/Nexa Light.ttf");
-}
-@font-face {
-	font-family: "NexaBold";
-	src: url("../fonts/Nexa Bold.ttf");
-}
-@font-face{
-	font-family: "AlexBrush";
-	src: url("../fonts/AlexBrush-Regular.ttf");
-}
 *{
 	transition: all ease-in-out 250ms;
 }
 body {
 	font-family: Calibri, sans-serif;
-}
-.bg-dark{
-	font-size: 20px;
-	border-bottom: 3px solid #627f84;
-}
-.bye{
-	opacity: 0;
 }
 .background-wrap {
     position: absolute;
@@ -50,19 +31,11 @@ body {
     width: 100%;
     left: 0;
     min-height: 100%;
-    
     background-color: rgba(0,0,0,0.8);
-}
-.down{
-	bottom:0;
 }
 @-webkit-keyframes title {
     from {top: 125px;}
 	to {top: 0px;}
-}
-@-webkit-keyframes button {
-    from {bottom: 1vh;}
-	to {bottom: 30px;}
 }
 .animation{
 	position: relative;
@@ -85,66 +58,8 @@ body {
 	letter-spacing: 3px;
 	color: #aaa;
 }
-.content span{
-	position: absolute;
-	color: white;
-	left: 50%;
-	bottom: 30px;
-	transform: translateX(-50%);
-	-webkit-animation-name: button;
-    -webkit-animation-duration: 2s;
-    animation-name: button;
-    animation-duration: 2s;
-	-webkit-animation-timing-function: ease;
-}
-.fa-chevron-down{
-	color:white;
-	opacity: 1;
-}
-.fa-chevron-down:hover {
-    opacity: 0.75;
-}
-}
-.paragraf{
-	padding-right: 20%;
-	padding-left: 20%;
-}
-.title{
-	font-family: NexusBold;
-	font-size: 60px;
-	text-align: center;
-	padding-bottom: 40px;
-	letter-spacing: 3px;
-}
-.text{
-	padding-top: 60px;
-	padding-bottom: 60px; 
-	text-align: center;
-}
-.text h1{
-	font-size: 25px;
-}
-.text.black{
-	background: #252525;
-}
-.black{
-	color: white;
-}
-.parallax{
-	color: white;
-	text-align: center;
-	padding: 10.5em 0;
-	background:url("../img/inter.png") repeat;
-	background-size: cover;
-	background-position: center;
-	transition: inital;
-}
-.logo{
-	position: absolute;
-	top: 100vh;
-	left: 100vw;
-	transform: translateY(-100%) translateX(-110%);
-	z-index: 5;
+button:hover{
+	cursor:pointer;
 }
 @media screen and (max-width: 480px){
 	
@@ -167,30 +82,6 @@ body {
 		letter-spacing: 3px;
 		color: #aaa;
 	}
-	.nav-item{
-		font-size: 20px!important;
-	}
-	.text h1{
-		font-size: 18px!important;
-	}
-	#dispari{
-		display: none;
-	}
-	.signature{
-		font-size: 25px;
-	}
-	.logo{
-	top: 13vh;
-	left: 100vw;
-	height: 80px;
-	width: 80px;
-	}
-}
-@media screen and (max-width: 768px){
-	.parallax{
-		padding: 3.3em 0;
-		transition: initial;
-	}
 }
 @media screen and (max-width: 1024px){
 	.animation h1{
@@ -198,14 +89,5 @@ body {
 		padding-right: 5%;
 		padding-left: 5%;
 		font-size: 65px;
-	}
-	.text h1{
-		font-size: 20px;
-	}
-	#dispari{
-		display: none;
-	}
-	.signature{
-		font-size: 20px;
 	}
 }

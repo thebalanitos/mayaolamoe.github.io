@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "Rockwell";
+	src: url("../fonts/rock.ttf");
+}
+@font-face {
+	font-family: "RockwellBold";
+	src: url("../fonts/rockb.ttf");
+}
+body{
+	font-size:17px;
+}
+.navbar{
+	padding-left:10vw;
+}
+.navbar-brand{
+	font-family: Rockwell;
+}
+
+@media screen and (max-width:768px){
+	.navbar{
+		padding-left:4vw;
+	}
+	.navbar-brand{
+		font-size: 20px;
+	}
+	.navbar-nav{
+		margin-top: 5px;
+		border-top-style: solid;
+   		border-width: 3px;
+	}
+}
