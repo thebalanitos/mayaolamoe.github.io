@@ -9,7 +9,7 @@
 body{
 	font-size:17px;
 	background: lightgrey;
-	font-family: Rockwell;
+	font-family: Raleway;
 }
 .navbar{
 	padding-left:10vw;
@@ -17,23 +17,24 @@ body{
 .navbar-brand{
 	font-family: RockwellBold;
 }
+.nav-link{
+	font-family: Rockwell;
+}
 .active:hover{
 	cursor:not-allowed;
 }
-.primary{
-	margin-top: 5vh;
-	background: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.container{
+	background-color:white;
+	margin-top: 4vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 .title{
-	font-size:25px;
-	padding-top:15px;
-	padding-bottom: 15px;
 	font-family: RockwellBold;
+	padding-top: 1vh;
+	padding-left: 1vw;
 }
-p{
-	margin-bottom: 0;
-	padding-bottom: 12px;
+.final{
+	padding-bottom:3%
 }
 @media screen and (max-width:768px){
 	.navbar{

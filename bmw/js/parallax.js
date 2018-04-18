@@ -7,13 +7,7 @@ function parallax(){
 
 	if($(window).width() > 1024)
 		{
-			$('.parallax').css('background-position','center '+(wScroll)*0.5+'px');
+			$('.parallax1').css('background-position','center '+(wScroll)*-0.3+'px');
+			$('.parallax2').css('background-position','center '+(wScroll)*-0.3+'px');
 		}
 }
-function calcVH() {
-    $('.jumbotron').innerHeight( $(this).innerHeight() );
-}
-calcVH();
-$(window).on('resize orientationchange', function() {
-  calcVH();
-});
