@@ -22,7 +22,7 @@ body {
 .bg-img {
     position: absolute;
     left: 0;
-    min-height: 100vh;
+    height: 100vh;
     min-width: 100vh;
     z-index: -1001;
 }
