@@ -6,6 +6,10 @@
 	font-family: "RockwellBold";
 	src: url("../fonts/rockb.ttf");
 }
+@font-face{
+	font-family: "Raleway";
+	src: url("../fonts/raleway.ttf");
+}
 body{
 	font-size:17px;
 	background: lightgrey;
